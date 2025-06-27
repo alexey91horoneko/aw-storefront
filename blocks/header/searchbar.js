@@ -6,6 +6,11 @@ import { getConfigValue } from '../../scripts/configs.js';
   const widgetProd = '/scripts/widgets/SearchAsYouType.js';
   await loadScript(widgetProd);
 
+  /* eslint-disable no-console */
+  console.log('pognali');
+  console.log(getConfigValue('headers.cs.Test'));
+  /* eslint-enable no-console */
+
   const storeDetails = {
     environmentId: getConfigValue('headers.cs.Magento-Environment-Id'),
     environmentType: (getConfigValue('commerce-endpoint')).includes('sandbox') ? 'testing' : '',

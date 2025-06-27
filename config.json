@@ -9,11 +9,10 @@
         },
         "cs": {
           "Magento-Customer-Group": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
-          "Test": "haha",
           "Magento-Store-Code": "main_website_store",
           "Magento-Store-View-Code": "default",
           "Magento-Website-Code": "base",
-          "x-api-key": "search_gql1111",
+          "x-api-key": "search_gql",
           "Magento-Environment-Id": "9eda7947-dd51-4eed-b7a9-73ca5706809e"
         }
       },
