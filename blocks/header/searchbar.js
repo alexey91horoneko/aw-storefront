@@ -6,8 +6,6 @@ import { getConfigValue } from '../../scripts/configs.js';
   const widgetProd = '/scripts/widgets/SearchAsYouType.js';
   await loadScript(widgetProd);
 
-  console.log('trololo');
-
   const storeDetails = {
     environmentId: getConfigValue('headers.cs.Magento-Environment-Id'),
     environmentType: (getConfigValue('commerce-endpoint')).includes('sandbox') ? 'testing' : '',
