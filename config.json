@@ -18,6 +18,18 @@
            "rootCategory": "2"
          }
       }
+    },
+    "/fr/": {
+      "headers": {
+        "all": {
+          "Store": "french"
+        },
+        "cs": {
+          "Magento-Store-Code": "main_website_store",
+          "Magento-Store-View-Code": "french",
+          "Magento-Website-Code": "base"
+        }
+      }
     }
   }
 }
